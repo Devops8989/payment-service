@@ -9,7 +9,7 @@ pipeline {
    stages {
       stage('Checkout') {
          steps {
-            git branch: 'staging', url: 'https://github.com/Devops8989/Devops_ecom_authservice.git'
+            git branch: 'staging', url: 'https://github.com/Devops8989/payment-service.git'
          }
       }
 
